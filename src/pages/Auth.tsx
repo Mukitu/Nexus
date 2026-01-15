@@ -87,7 +87,7 @@ export default function Auth() {
                     <Input
                       id="displayName"
                       type="text"
-                      placeholder="John Doe"
+                      placeholder="Mukitu"
                       value={formData.displayName}
                       onChange={(e) => setFormData({ ...formData, displayName: e.target.value })}
                       className="pl-10"
@@ -121,7 +121,7 @@ export default function Auth() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="you@example.com"
+                  placeholder="you@gmail.com"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="pl-10"
